@@ -18,18 +18,6 @@ set fileformat=unix
 "pathogen
 execute pathogen#infect()
 
-"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
-"PEP8 for python
-"au BufNewFile,BufRead *.py
-    "\ set tabstop=4
-    "\ set softtabstop=4
-    "\ set shiftwidth=4
-    "\ set textwidth=79
-    "\ set expandtab
-    "\ set autoindent
-    "\ set fileformat=unix
-
 filetype plugin on
 let &t_Co=256
 colorscheme kalisi
