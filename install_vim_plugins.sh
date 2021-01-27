@@ -13,3 +13,7 @@ fi
 [ ! -d "${VIM_HOME}/bundle/kalisi" ] && git clone https://github.com/freeo/vim-kalisi ${VIM_HOME}/bundle/kalisi
 [ ! -d "${VIM_HOME}/bundle/syntastic" ] && git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ${VIM_HOME}/bundle/syntastic
 [ ! -d "${VIM_HOME}/bundle/nerdtree" ] && git clone https://github.com/preservim/nerdtree.git ${VIM_HOME}/bundle/nerdtree
+
+# install fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --all
